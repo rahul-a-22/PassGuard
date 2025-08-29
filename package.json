@@ -1,0 +1,25 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "Full-stack PassGuard application with React, Node.js, Express, and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "password-manager",
+    "react",
+    "node",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
