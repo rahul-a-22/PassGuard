@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PassGuard Application
 
 A full-stack PassGuard application built with React, Node.js, Express, and MySQL. This application allows users to securely store and manage their passwords with features like authentication, password encryption, and a user-friendly interface.
